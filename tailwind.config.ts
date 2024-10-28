@@ -144,7 +144,7 @@ fontWeight: {
 	black: '900',
 },
 
-// screens
+// screens min-widths
 screens: {
 	'sm': '360px',    // => @media (min-width: 360px) { ... }
 	'md': '768px',    // => @media (min-width: 768px) { ... }
@@ -154,6 +154,8 @@ screens: {
 	'3xl': '1680px',  // => @media (min-width: 1680px) { ... }
 	'4xl': '1920px',  // => @media (min-width: 1920px) { ... }
   },  
+
+  //screens max-widths
 
   container: {
 	center: true,
@@ -169,7 +171,7 @@ screens: {
 	},
 	
 padding: {
-	DEFAULT: '1rem',
+	DEFAULT: '0rem',
 	xs: '0rem',
 sm: '0rem',
 md: '0rem',
@@ -177,6 +179,7 @@ lg: '0rem',
 x1: '0rem',
 '2x1': '2rem',
 '3x1': '2rem',
+'4x1': '2rem',
 },
 
   },  
